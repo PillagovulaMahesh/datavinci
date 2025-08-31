@@ -1,0 +1,34 @@
+/* Mobile-first design */
+.homepage-container, .aboutpage-container {
+  padding: 15px;
+}
+
+.hero-section h2 {
+  font-size: 1.5rem;
+}
+
+.checkbox-section h3 {
+  font-size: 1.2rem;
+}
+
+/* Tablets & Desktops */
+@media (min-width: 768px) {
+  .homepage-container, .aboutpage-container {
+    padding: 30px 60px;
+  }
+
+  .hero-section h2 {
+    font-size: 2rem;
+  }
+
+  .checkbox-section h3 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .homepage-container, .aboutpage-container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+}
